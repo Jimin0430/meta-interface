@@ -96,7 +96,7 @@ export default function ProjectBox({
         flexDirection: "column",
         justifyContent: "space-between",
       }}
-      className={styles.pjb}
+      className={`${!isInMyprofile && styles.pjb}`}
       ref={projectBoxRef}
     >
       <div
