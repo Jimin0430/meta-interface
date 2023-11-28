@@ -170,7 +170,7 @@ export default function CommentSection({ storyIdx }) {
               return;
             }
 
-            // handleWriteComment();
+            handleWriteComment();
           }}
         >
           <img src="/public_assets/icons/accentBtn.svg" alt="accentBtn" />
